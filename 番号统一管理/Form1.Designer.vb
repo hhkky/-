@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class frmMain
     Inherits System.Windows.Forms.Form
 
     'Form 重写 Dispose，以清理组件列表。
@@ -22,69 +22,74 @@ Partial Class Form1
     '不要使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtRemark = New System.Windows.Forms.TextBox()
+        Me.txtNum = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.DomainUpDown1 = New System.Windows.Forms.DomainUpDown()
+        Me.txtPlayer = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cboResoure = New System.Windows.Forms.ComboBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtID = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.DomainUpDown2 = New System.Windows.Forms.DomainUpDown()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.DomainUpDown3 = New System.Windows.Forms.DomainUpDown()
+        Me.dudAI = New System.Windows.Forms.DomainUpDown()
+        Me.cboType = New System.Windows.Forms.ComboBox()
+        Me.dudBQ = New System.Windows.Forms.DomainUpDown()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.txtFan = New System.Windows.Forms.TextBox()
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
+        Me.status1 = New System.Windows.Forms.StatusStrip()
+        Me.tsslblNowNum = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.tsslblReEdit = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.tsslblAllNum = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.dgvList = New System.Windows.Forms.DataGridView()
+        Me.pbDisplay = New System.Windows.Forms.PictureBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.btnNext = New System.Windows.Forms.Button()
+        Me.btnPrevious = New System.Windows.Forms.Button()
+        Me.lblInfo = New System.Windows.Forms.Label()
+        Me.btnImport = New System.Windows.Forms.Button()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.btnBView = New System.Windows.Forms.Button()
+        Me.btnEdit = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.fbdImports = New System.Windows.Forms.FolderBrowserDialog()
         Me.GroupBox2.SuspendLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
         Me.SplitContainer1.SuspendLayout()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.status1.SuspendLayout()
+        CType(Me.dgvList, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbDisplay, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'TextBox4
+        'txtRemark
         '
-        Me.TextBox4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TextBox4.Location = New System.Drawing.Point(0, 376)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(296, 477)
-        Me.TextBox4.TabIndex = 7
+        Me.txtRemark.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.txtRemark.Location = New System.Drawing.Point(0, 329)
+        Me.txtRemark.Multiline = True
+        Me.txtRemark.Name = "txtRemark"
+        Me.txtRemark.Size = New System.Drawing.Size(296, 324)
+        Me.txtRemark.TabIndex = 7
         '
-        'TextBox1
+        'txtNum
         '
-        Me.TextBox1.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(360, 54)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(120, 30)
-        Me.TextBox1.TabIndex = 5
+        Me.txtNum.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.txtNum.Location = New System.Drawing.Point(831, 18)
+        Me.txtNum.Name = "txtNum"
+        Me.txtNum.Size = New System.Drawing.Size(120, 30)
+        Me.txtNum.TabIndex = 5
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label3.Location = New System.Drawing.Point(285, 21)
+        Me.Label3.Location = New System.Drawing.Point(254, 23)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(69, 20)
         Me.Label3.TabIndex = 7
@@ -94,52 +99,44 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label4.Location = New System.Drawing.Point(245, 59)
+        Me.Label4.Location = New System.Drawing.Point(716, 23)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(109, 20)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "收录次数："
         '
-        'TextBox2
+        'txtPlayer
         '
-        Me.TextBox2.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(360, 16)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(120, 30)
-        Me.TextBox2.TabIndex = 10
-        '
-        'DomainUpDown1
-        '
-        Me.DomainUpDown1.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.DomainUpDown1.Location = New System.Drawing.Point(117, 16)
-        Me.DomainUpDown1.Name = "DomainUpDown1"
-        Me.DomainUpDown1.Size = New System.Drawing.Size(120, 30)
-        Me.DomainUpDown1.TabIndex = 3
+        Me.txtPlayer.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.txtPlayer.Location = New System.Drawing.Point(329, 18)
+        Me.txtPlayer.Name = "txtPlayer"
+        Me.txtPlayer.Size = New System.Drawing.Size(120, 30)
+        Me.txtPlayer.TabIndex = 10
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label5.Location = New System.Drawing.Point(510, 21)
+        Me.Label5.Location = New System.Drawing.Point(509, 23)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(49, 20)
         Me.Label5.TabIndex = 11
         Me.Label5.Text = "ID："
         '
-        'ComboBox1
+        'cboResoure
         '
-        Me.ComboBox1.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(117, 55)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(120, 28)
-        Me.ComboBox1.TabIndex = 8
+        Me.cboResoure.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.cboResoure.FormattingEnabled = True
+        Me.cboResoure.Location = New System.Drawing.Point(106, 57)
+        Me.cboResoure.Name = "cboResoure"
+        Me.cboResoure.Size = New System.Drawing.Size(120, 28)
+        Me.cboResoure.TabIndex = 8
         '
         'Label6
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label6.Location = New System.Drawing.Point(490, 59)
+        Me.Label6.Location = New System.Drawing.Point(254, 61)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(69, 20)
         Me.Label6.TabIndex = 13
@@ -149,25 +146,25 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label2.Location = New System.Drawing.Point(40, 59)
+        Me.Label2.Location = New System.Drawing.Point(31, 61)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(69, 20)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "资源："
         '
-        'TextBox3
+        'txtID
         '
-        Me.TextBox3.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(565, 16)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(120, 30)
-        Me.TextBox3.TabIndex = 14
+        Me.txtID.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.txtID.Location = New System.Drawing.Point(564, 18)
+        Me.txtID.Name = "txtID"
+        Me.txtID.Size = New System.Drawing.Size(120, 30)
+        Me.txtID.TabIndex = 14
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label1.Location = New System.Drawing.Point(40, 21)
+        Me.Label1.Location = New System.Drawing.Point(31, 23)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 20)
         Me.Label1.TabIndex = 1
@@ -177,7 +174,7 @@ Partial Class Form1
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label8.Location = New System.Drawing.Point(695, 59)
+        Me.Label8.Location = New System.Drawing.Point(706, 61)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(119, 20)
         Me.Label8.TabIndex = 18
@@ -187,62 +184,69 @@ Partial Class Form1
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label7.Location = New System.Drawing.Point(735, 21)
+        Me.Label7.Location = New System.Drawing.Point(477, 61)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(79, 20)
         Me.Label7.TabIndex = 16
         Me.Label7.Text = "AV|IV："
         '
-        'DomainUpDown2
+        'dudAI
         '
-        Me.DomainUpDown2.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.DomainUpDown2.Location = New System.Drawing.Point(822, 16)
-        Me.DomainUpDown2.Name = "DomainUpDown2"
-        Me.DomainUpDown2.Size = New System.Drawing.Size(120, 30)
-        Me.DomainUpDown2.TabIndex = 15
+        Me.dudAI.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.dudAI.Location = New System.Drawing.Point(564, 56)
+        Me.dudAI.Name = "dudAI"
+        Me.dudAI.Size = New System.Drawing.Size(120, 30)
+        Me.dudAI.TabIndex = 15
         '
-        'ComboBox2
+        'cboType
         '
-        Me.ComboBox2.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(565, 55)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(120, 28)
-        Me.ComboBox2.TabIndex = 12
+        Me.cboType.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.cboType.FormattingEnabled = True
+        Me.cboType.Location = New System.Drawing.Point(329, 57)
+        Me.cboType.Name = "cboType"
+        Me.cboType.Size = New System.Drawing.Size(120, 28)
+        Me.cboType.TabIndex = 12
         '
-        'DomainUpDown3
+        'dudBQ
         '
-        Me.DomainUpDown3.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.DomainUpDown3.Location = New System.Drawing.Point(822, 54)
-        Me.DomainUpDown3.Name = "DomainUpDown3"
-        Me.DomainUpDown3.Size = New System.Drawing.Size(120, 30)
-        Me.DomainUpDown3.TabIndex = 17
+        Me.dudBQ.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.dudBQ.Location = New System.Drawing.Point(831, 56)
+        Me.dudBQ.Name = "dudBQ"
+        Me.dudBQ.Size = New System.Drawing.Size(120, 30)
+        Me.dudBQ.TabIndex = 17
         '
         'GroupBox2
         '
         Me.GroupBox2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
-        Me.GroupBox2.Controls.Add(Me.DomainUpDown3)
-        Me.GroupBox2.Controls.Add(Me.ComboBox2)
-        Me.GroupBox2.Controls.Add(Me.DomainUpDown2)
+        Me.GroupBox2.Controls.Add(Me.txtFan)
+        Me.GroupBox2.Controls.Add(Me.dudBQ)
+        Me.GroupBox2.Controls.Add(Me.cboType)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.dudAI)
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Controls.Add(Me.Label8)
         Me.GroupBox2.Controls.Add(Me.Label1)
-        Me.GroupBox2.Controls.Add(Me.TextBox3)
+        Me.GroupBox2.Controls.Add(Me.txtNum)
+        Me.GroupBox2.Controls.Add(Me.txtID)
         Me.GroupBox2.Controls.Add(Me.Label2)
         Me.GroupBox2.Controls.Add(Me.Label6)
-        Me.GroupBox2.Controls.Add(Me.ComboBox1)
+        Me.GroupBox2.Controls.Add(Me.cboResoure)
         Me.GroupBox2.Controls.Add(Me.Label5)
-        Me.GroupBox2.Controls.Add(Me.DomainUpDown1)
-        Me.GroupBox2.Controls.Add(Me.TextBox2)
-        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Controls.Add(Me.txtPlayer)
         Me.GroupBox2.Controls.Add(Me.Label3)
-        Me.GroupBox2.Controls.Add(Me.TextBox1)
         Me.GroupBox2.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupBox2.Location = New System.Drawing.Point(0, 0)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(982, 100)
         Me.GroupBox2.TabIndex = 19
         Me.GroupBox2.TabStop = False
+        '
+        'txtFan
+        '
+        Me.txtFan.Location = New System.Drawing.Point(106, 21)
+        Me.txtFan.Name = "txtFan"
+        Me.txtFan.Size = New System.Drawing.Size(120, 25)
+        Me.txtFan.TabIndex = 19
         '
         'SplitContainer1
         '
@@ -252,150 +256,194 @@ Partial Class Form1
         '
         'SplitContainer1.Panel1
         '
-        Me.SplitContainer1.Panel1.Controls.Add(Me.StatusStrip1)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.DataGridView1)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.PictureBox1)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.status1)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.dgvList)
+        Me.SplitContainer1.Panel1.Controls.Add(Me.pbDisplay)
         '
         'SplitContainer1.Panel2
         '
-        Me.SplitContainer1.Panel2.Controls.Add(Me.TextBox4)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.txtRemark)
         Me.SplitContainer1.Panel2.Controls.Add(Me.GroupBox1)
-        Me.SplitContainer1.Size = New System.Drawing.Size(982, 853)
+        Me.SplitContainer1.Size = New System.Drawing.Size(982, 653)
         Me.SplitContainer1.SplitterDistance = 682
         Me.SplitContainer1.TabIndex = 21
         '
-        'DataGridView1
+        'status1
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowTemplate.Height = 27
-        Me.DataGridView1.Size = New System.Drawing.Size(682, 853)
-        Me.DataGridView1.TabIndex = 0
+        Me.status1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.status1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsslblNowNum, Me.tsslblReEdit, Me.tsslblAllNum})
+        Me.status1.Location = New System.Drawing.Point(0, 624)
+        Me.status1.Name = "status1"
+        Me.status1.Size = New System.Drawing.Size(682, 29)
+        Me.status1.TabIndex = 2
+        Me.status1.Text = "StatusStrip1"
         '
-        'PictureBox1
+        'tsslblNowNum
         '
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(682, 853)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.tsslblNowNum.BorderSides = CType((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) _
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) _
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom), System.Windows.Forms.ToolStripStatusLabelBorderSides)
+        Me.tsslblNowNum.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter
+        Me.tsslblNowNum.Name = "tsslblNowNum"
+        Me.tsslblNowNum.Size = New System.Drawing.Size(222, 24)
+        Me.tsslblNowNum.Spring = True
+        Me.tsslblNowNum.Text = "本次输入个番号"
+        '
+        'tsslblReEdit
+        '
+        Me.tsslblReEdit.BorderSides = CType((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) _
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) _
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom), System.Windows.Forms.ToolStripStatusLabelBorderSides)
+        Me.tsslblReEdit.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter
+        Me.tsslblReEdit.Name = "tsslblReEdit"
+        Me.tsslblReEdit.Size = New System.Drawing.Size(222, 24)
+        Me.tsslblReEdit.Spring = True
+        Me.tsslblReEdit.Text = "重复输入个番号"
+        '
+        'tsslblAllNum
+        '
+        Me.tsslblAllNum.BorderSides = CType((((System.Windows.Forms.ToolStripStatusLabelBorderSides.Left Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Top) _
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Right) _
+            Or System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom), System.Windows.Forms.ToolStripStatusLabelBorderSides)
+        Me.tsslblAllNum.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter
+        Me.tsslblAllNum.Name = "tsslblAllNum"
+        Me.tsslblAllNum.Size = New System.Drawing.Size(222, 24)
+        Me.tsslblAllNum.Spring = True
+        Me.tsslblAllNum.Text = "数据共有个番号"
+        '
+        'dgvList
+        '
+        Me.dgvList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvList.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.dgvList.Location = New System.Drawing.Point(0, 0)
+        Me.dgvList.Name = "dgvList"
+        Me.dgvList.RowTemplate.Height = 27
+        Me.dgvList.Size = New System.Drawing.Size(682, 653)
+        Me.dgvList.TabIndex = 0
+        '
+        'pbDisplay
+        '
+        Me.pbDisplay.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.pbDisplay.Location = New System.Drawing.Point(0, 0)
+        Me.pbDisplay.Name = "pbDisplay"
+        Me.pbDisplay.Size = New System.Drawing.Size(682, 653)
+        Me.pbDisplay.TabIndex = 1
+        Me.pbDisplay.TabStop = False
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.btnNext)
+        Me.GroupBox1.Controls.Add(Me.btnPrevious)
+        Me.GroupBox1.Controls.Add(Me.lblInfo)
+        Me.GroupBox1.Controls.Add(Me.btnImport)
+        Me.GroupBox1.Controls.Add(Me.Label9)
+        Me.GroupBox1.Controls.Add(Me.btnBView)
+        Me.GroupBox1.Controls.Add(Me.btnEdit)
+        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.GroupBox1.Location = New System.Drawing.Point(0, 0)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(0)
+        Me.GroupBox1.Size = New System.Drawing.Size(296, 329)
+        Me.GroupBox1.TabIndex = 6
+        Me.GroupBox1.TabStop = False
+        '
+        'btnNext
+        '
+        Me.btnNext.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.btnNext.Location = New System.Drawing.Point(203, 222)
+        Me.btnNext.Name = "btnNext"
+        Me.btnNext.Size = New System.Drawing.Size(50, 50)
+        Me.btnNext.TabIndex = 15
+        Me.btnNext.Text = ">"
+        Me.btnNext.UseVisualStyleBackColor = True
+        '
+        'btnPrevious
+        '
+        Me.btnPrevious.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.btnPrevious.Location = New System.Drawing.Point(43, 222)
+        Me.btnPrevious.Name = "btnPrevious"
+        Me.btnPrevious.Size = New System.Drawing.Size(50, 50)
+        Me.btnPrevious.TabIndex = 14
+        Me.btnPrevious.Text = "<"
+        Me.btnPrevious.UseVisualStyleBackColor = True
+        '
+        'lblInfo
+        '
+        Me.lblInfo.BackColor = System.Drawing.SystemColors.Info
+        Me.lblInfo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblInfo.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.lblInfo.Location = New System.Drawing.Point(123, 222)
+        Me.lblInfo.Name = "lblInfo"
+        Me.lblInfo.Size = New System.Drawing.Size(50, 50)
+        Me.lblInfo.TabIndex = 13
+        Me.lblInfo.Text = "1"
+        Me.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'btnImport
+        '
+        Me.btnImport.AutoSize = True
+        Me.btnImport.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.btnImport.Location = New System.Drawing.Point(3, 3)
+        Me.btnImport.Margin = New System.Windows.Forms.Padding(0)
+        Me.btnImport.Name = "btnImport"
+        Me.btnImport.Size = New System.Drawing.Size(145, 100)
+        Me.btnImport.TabIndex = 2
+        Me.btnImport.Text = "批量导入"
+        Me.btnImport.UseVisualStyleBackColor = True
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label9.Location = New System.Drawing.Point(2, 290)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(69, 20)
+        Me.Label9.TabIndex = 10
+        Me.Label9.Text = "备注："
+        '
+        'btnBView
+        '
+        Me.btnBView.AutoSize = True
+        Me.btnBView.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.btnBView.Location = New System.Drawing.Point(3, 101)
+        Me.btnBView.Name = "btnBView"
+        Me.btnBView.Size = New System.Drawing.Size(145, 100)
+        Me.btnBView.TabIndex = 12
+        Me.btnBView.Text = "批量查看"
+        Me.btnBView.UseVisualStyleBackColor = True
+        '
+        'btnEdit
+        '
+        Me.btnEdit.AutoSize = True
+        Me.btnEdit.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.btnEdit.Location = New System.Drawing.Point(148, 101)
+        Me.btnEdit.Name = "btnEdit"
+        Me.btnEdit.Size = New System.Drawing.Size(145, 100)
+        Me.btnEdit.TabIndex = 1
+        Me.btnEdit.Text = "修改"
+        Me.btnEdit.UseVisualStyleBackColor = True
         '
         'Button1
         '
         Me.Button1.AutoSize = True
-        Me.Button1.Location = New System.Drawing.Point(148, 6)
+        Me.Button1.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Button1.Location = New System.Drawing.Point(148, 3)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(145, 100)
         Me.Button1.TabIndex = 11
         Me.Button1.Text = "统计说明"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
-        '
-        Me.Button2.AutoSize = True
-        Me.Button2.Location = New System.Drawing.Point(148, 104)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(145, 100)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "修改"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button4
-        '
-        Me.Button4.AutoSize = True
-        Me.Button4.Location = New System.Drawing.Point(3, 104)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(145, 100)
-        Me.Button4.TabIndex = 12
-        Me.Button4.Text = "批量查看"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("幼圆", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
-        Me.Label9.Location = New System.Drawing.Point(3, 353)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(69, 20)
-        Me.Label9.TabIndex = 10
-        Me.Label9.Text = "备注："
-        '
-        'Button3
-        '
-        Me.Button3.AutoSize = True
-        Me.Button3.Location = New System.Drawing.Point(3, 6)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(145, 100)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "批量导入"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Label10
-        '
-        Me.Label10.BackColor = System.Drawing.SystemColors.Info
-        Me.Label10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label10.Location = New System.Drawing.Point(125, 243)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(50, 50)
-        Me.Label10.TabIndex = 13
-        Me.Label10.Text = "1"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Button5
-        '
-        Me.Button5.Location = New System.Drawing.Point(45, 243)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(50, 50)
-        Me.Button5.TabIndex = 14
-        Me.Button5.Text = "<"
-        Me.Button5.UseVisualStyleBackColor = True
-        '
-        'Button6
-        '
-        Me.Button6.Location = New System.Drawing.Point(205, 243)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(50, 50)
-        Me.Button6.TabIndex = 15
-        Me.Button6.Text = ">"
-        Me.Button6.UseVisualStyleBackColor = True
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.Button6)
-        Me.GroupBox1.Controls.Add(Me.Button5)
-        Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.Button3)
-        Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.Button4)
-        Me.GroupBox1.Controls.Add(Me.Button2)
-        Me.GroupBox1.Controls.Add(Me.Button1)
-        Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupBox1.Location = New System.Drawing.Point(0, 0)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(296, 376)
-        Me.GroupBox1.TabIndex = 6
-        Me.GroupBox1.TabStop = False
-        '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 831)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(682, 22)
-        Me.StatusStrip1.TabIndex = 2
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'Form1
+        'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(982, 953)
+        Me.ClientSize = New System.Drawing.Size(982, 753)
         Me.Controls.Add(Me.SplitContainer1)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Name = "Form1"
+        Me.Name = "frmMain"
         Me.Text = "番号管理软件"
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
@@ -405,42 +453,48 @@ Partial Class Form1
         Me.SplitContainer1.Panel2.PerformLayout()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer1.ResumeLayout(False)
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.status1.ResumeLayout(False)
+        Me.status1.PerformLayout()
+        CType(Me.dgvList, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbDisplay, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtRemark As TextBox
+    Friend WithEvents txtNum As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents DomainUpDown1 As DomainUpDown
     Friend WithEvents Label5 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents cboResoure As ComboBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtID As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents DomainUpDown2 As DomainUpDown
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents DomainUpDown3 As DomainUpDown
+    Friend WithEvents dudAI As DomainUpDown
+    Friend WithEvents cboType As ComboBox
+    Friend WithEvents dudBQ As DomainUpDown
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents SplitContainer1 As SplitContainer
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents dgvList As DataGridView
+    Friend WithEvents pbDisplay As PictureBox
+    Friend WithEvents status1 As StatusStrip
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Button3 As Button
+    Friend WithEvents btnNext As Button
+    Friend WithEvents btnPrevious As Button
+    Friend WithEvents lblInfo As Label
+    Friend WithEvents btnImport As Button
     Friend WithEvents Label9 As Label
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnBView As Button
+    Friend WithEvents btnEdit As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents txtFan As TextBox
+    Friend WithEvents txtPlayer As TextBox
+    Friend WithEvents tsslblNowNum As ToolStripStatusLabel
+    Friend WithEvents tsslblReEdit As ToolStripStatusLabel
+    Friend WithEvents tsslblAllNum As ToolStripStatusLabel
+    Friend WithEvents fbdImports As FolderBrowserDialog
 End Class
